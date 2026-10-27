@@ -11,20 +11,21 @@ It's always helpful to keep track of your web URL.  Consider putting that somewh
 This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
 
 # About me
-Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
+Hi, I'm Anita! I'm a Master of Information Systems Management student at Carnegie Mellon University, with a B.S. in Informatics and Mathematics from UC Irvine.
+
+My interests lie at the intersection of:
+
+🤖 Applied AI & Machine Learning
+🔐 Cybersecurity & Secure Systems
+📊 Data & Information Systems
+💻 Software Engineering
 
 # What I hope to learn
 All the things - obviously. Maybe I want to make a list of all the things.  If so, I can do so in Markdown like this: 
 
-1. List item #1
-2. List item #2
-3. List item #3
-
-or...
-
-- List item #1
-- List item #2
-- List item #3
+1. Exploring various types of data visualizations
+2. Acquiring skills of building accurate and delicate visualizations
+3. Avoiding bias in creating visualizations
 
 # Portfolio
 
