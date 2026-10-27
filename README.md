@@ -4,11 +4,16 @@
 These portfolio templates are for setting up your Telling Stories with Data site.  Edit these pages and add new ones as needed.   
 It's always helpful to keep track of your web URL.  Consider putting that somewhere on your page for easy reference: 
 
-- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/
-- This repository: https://github.com/cmustudent/tswd-portfolio-templates/
+- Web page URL: [Click here.](https://anitah2603.github.io/Huang-Anita-Portfolio/)
+- This repository: [Click here.](https://github.com/anitah2603/Huang-Anita-Portfolio)
 
 # Portfolio
-This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
+This is my public portfolio for Telling Stories with Data at CMU!
+Here are some projects that I have completed:
+- Assignment 1
+- Assignment 2
+- ......
+- Final Project
 
 # About me
 Hi, I'm Anita! I'm a Master of Information Systems Management student at Carnegie Mellon University, with a B.S. in Informatics and Mathematics from UC Irvine.
