@@ -38,7 +38,8 @@ All the things - obviously. Maybe I want to make a list of all the things.  If s
 You can keep this section for stuff from in-class demos or your other work, or remove it. 
 
 ## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
+Here is my data visualization! <iframe src="[YOUR_TABLEAU_PUBLIC_SHARE_URL](https://public.tableau.com/app/profile/anita.huang4128/viz/Publicfinancemainindicators1995-2019/Sheet1?publish=yes)?:embed=y" width="100%" height="800px" frameborder="0"></iframe>
+
 
 ## Assignment 3&4: [Critique by Design](critique-by-design)
 For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
