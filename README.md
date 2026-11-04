@@ -35,19 +35,15 @@ All the things - obviously. Maybe I want to make a list of all the things.  If s
 # Portfolio
 
 # Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
 
-## Assignment: [Visualizing Government Debt](http://public.tableau.com/app/profile/anita.huang4128/viz/CircleChartofpublicfinancemainindicators1995-2019/Sheet1)
-
-
-Here is my data visualization for this assignment!
+## Assignment 1: [Critique by Design](http://public.tableau.com/app/profile/anita.huang4128/viz/CircleChartofpublicfinancemainindicators1995-2019/Sheet1)
 <iframe
   src="https://public.tableau.com/views/Publicfinancemainindicators1995-2019/Sheet1?:showVizHome=no&:embed=true"
   width="100%"
   height="800"
   style="border: 0;">
 </iframe>
-
+Here is another version!
 <iframe
   src="https://public.tableau.com/app/profile/anita.huang4128/viz/CircleChartofpublicfinancemainindicators1995-2019/Sheet1?:showVizHome=no&:embed=true"
   width="100%"
