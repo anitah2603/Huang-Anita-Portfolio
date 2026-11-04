@@ -45,7 +45,7 @@ All the things - obviously. Maybe I want to make a list of all the things.  If s
 </iframe>
 Here is another version!
 <iframe
-  src="https://public.tableau.com/app/profile/anita.huang4128/viz/CircleChartofpublicfinancemainindicators1995-2019/Sheet1?:showVizHome=no&:embed=true"
+  src="https://public.tableau.com/views/CircleChartofpublicfinancemainindicators1995-2019/Sheet1?:showVizHome=no&:embed=true"
   width="100%"
   height="800"
   style="border: 0;">
