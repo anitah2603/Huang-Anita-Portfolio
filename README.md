@@ -36,7 +36,7 @@ All the things - obviously. Maybe I want to make a list of all the things.  If s
 
 # Examples
 
-## Assignment 1: [Critique by Design](http://public.tableau.com/app/profile/anita.huang4128/viz/CircleChartofpublicfinancemainindicators1995-2019/Sheet1)
+## Assignment 1: [Government Debt](http://public.tableau.com/app/profile/anita.huang4128/viz/CircleChartofpublicfinancemainindicators1995-2019/Sheet1)
 <iframe
   src="https://public.tableau.com/views/Publicfinancemainindicators1995-2019/Sheet1?:showVizHome=no&:embed=true"
   width="100%"
