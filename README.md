@@ -38,16 +38,13 @@ All the things - obviously. Maybe I want to make a list of all the things.  If s
 You can keep this section for stuff from in-class demos or your other work, or remove it. 
 
    ## Assignment: [Visualizing Government Debt](https://public.tableau.com/app/profile/anita.huang4128/viz/Publicfinancemainindicators1995-2019/Sheet1)
-   <div>
-     <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
-     <tableau-viz
-       src="https://public.tableau.com/views/Publicfinancemainindicators1995-2019/Sheet1"
-       width="770"
-       height="800"
-       toolbar="bottom"
-       hide-tabs>
-     </tableau-viz>
-   </div>
+Here is my data visualization for this assignment!
+<iframe
+  src="https://public.tableau.com/views/Publicfinancemainindicators1995-2019/Sheet1?:showVizHome=no&:embed=true"
+  width="100%"
+  height="800"
+  style="border: 0;">
+</iframe>
 
 ## Assignment 3&4: [Critique by Design](critique-by-design)
 For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
