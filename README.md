@@ -37,7 +37,7 @@ All the things - obviously. Maybe I want to make a list of all the things.  If s
 # Examples
 You can keep this section for stuff from in-class demos or your other work, or remove it. 
 
-## Assignment: [Visualizing overnment Debt]([visualizing-government-debt](https://public.tableau.com/app/profile/anita.huang4128/viz/Publicfinancemainindicators1995-2019/Sheet1?publish=yes))
+## Assignment: [Visualizing overnment Debt]([visualizing-government-debt](https://public.tableau.com/app/profile/anita.huang4128/viz/Publicfinancemainindicators1995-2019/Sheet1)
 Here is my data visualization for this assignment! 
 
 
