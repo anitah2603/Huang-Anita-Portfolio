@@ -1,4 +1,4 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](gdp-redesign) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # TSWD-portfolio-templates
 These portfolio templates are for setting up your Telling Stories with Data site.  Edit these pages and add new ones as needed.   
@@ -52,7 +52,7 @@ Here is my final visualization showing how government debt has changed over time
   style="border: 0;">
 </iframe>
 
-## Assignment2: [Critique by Design](critique-by-design)
+## Assignment2: [Critique by Design](gdp-redesign)
  - [Critique by Design: World GDP 2026](gdp-redesign.md)
 
 ## Assignment 3&4: [Critique by Design](critique-by-design)
