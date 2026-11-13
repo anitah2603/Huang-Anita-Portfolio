@@ -76,15 +76,16 @@ I shared the wireframes with two people and asked them:
 2. Is anything confusing or missing?
 3. Which version, bar chart or treemap, communicates the data better, and why?
 
-**Person 1 ([role, e.g. classmate]):**
-- I really like the bar chart because it gives a straight forward linear comparison of the economies values. The treemap looks cool but i kind of loose track of the sizes of the smaller economies.
+**Classmate 1:**
+- I really like the bar chart because it gives a straight forward linear comparison of the economies values. For the countries leaved out by the ellipsis, how many do you plan to include in the final visualization? The treemap looks cool but i kind of loose track of the sizes of the smaller economies.
 
-**Person 2 ([role]):**
+**Classmate 2:**
 - I think its a good idea to add both dollar values and percentage label to the bar chart, and I would like to know how many countries does the "rest of the world" bar actually counts. For the treemap, I think its a little bit difficult to compare the actual sizes of the economies. For example, China should be two thirds of the US based on the percentage you list, but here it looks like they are the same.
 
 **What I learned and changed:**
 - A true to scale bar charts could reflect the portion of the economies better than a treemap, especailly with clear labels of GDP amount in US dollars and percenatages.
 - Make clear labels of the number of countries, their representing values, and data sources.
+- Include top 15 countries for size comparison and pattern illustration. 
 
 ## The redesign
 
