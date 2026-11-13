@@ -9,8 +9,11 @@
 ![Original ranked table of the 10 largest economies by GDP](images/gdp/original-table.png)
 
 *Original: a ranked table of countries by GDP (USD) with each country's share of the world total.* 
+
 *Source: ([Statistics of the World](https://statisticsoftheworld.com/gdp-by-country)).*
+
 *Data: ([IMF World Economic Outlook](https://www.imf.org/en/data)), nominal GDP in current US dollars.*
+
 *I found the image source and data on ([MakeoverMonday](https://makeovermonday.vercel.app/dataset/global-gdp-ranks)) website.*
 
 ### Why I chose it
