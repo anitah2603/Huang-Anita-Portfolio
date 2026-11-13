@@ -52,6 +52,8 @@ Here is my final visualization showing how government debt has changed over time
   style="border: 0;">
 </iframe>
 
+## Assignment2: [Critique by Design](critique-by-design)
+- [Critique by Design: World GDP 2026](gdp-redesign.html).
 
 ## Assignment 3&4: [Critique by Design](critique-by-design)
 For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
