@@ -57,9 +57,10 @@ I sketched two options on paper.
 ![Wireframe of an annotated horizontal bar chart](images/gdp/wireframe-bar-chart.png)
 
 - The title states the takeaway: *"Two economies make up 42% of world GDP in 2026."*
+- - Each bar shows both its dollar value and its % proportion.
 - It shows the top 15 economies plus one "Rest of world" bar.
 - The US and China are highlighted, and a bracket annotation gives their combined share.
-- Each bar shows both its dollar value and its share.
+
 
 **Option 2: Treemap (part-to-whole)**
 
@@ -121,7 +122,7 @@ I shared the wireframes with two people and asked them:
 Global GDP is highly concentrated. The US (25.9%) and China (16.6%) together account for 42.5% of the total. The remaining 177 economies outside the top 15 add up to about the same as the US alone (25.0%).
 
 ## AI acknowledgements
-I used Claude's guidance to create my Tableau visualization. I sent him my bar chart sketch, the original dataset, and a list of the visualizations I wanted to create. I wanted to highlight parts of the bars, scale the GDP values by trillion dollars, rank the top 15 economies and the rest of the world, and add comments next to the U.S. and China's bars. Then, I edited the Tableau interface based on Claude's instructions on my own.
+I used Claude's guidance to create my Tableau visualization. I sent him my bar chart sketch, the original dataset, and a list of the visualizations I wanted to create, such as highlighting parts of the bars, scaling the GDP values by trillion dollars, ranking the top 15 economies and the rest of the world, and add commenting next to the U.S. and China's bars. Then, I edited the Tableau interface based on Claude's instructions on my own.
 
 
 [← Back to portfolio](https://anitah2603.github.io/Huang-Anita-Portfolio/)
