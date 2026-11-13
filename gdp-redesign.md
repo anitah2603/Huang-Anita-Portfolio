@@ -2,6 +2,7 @@
 
 [← Back to portfolio](https://anitah2603.github.io/Huang-Anita-Portfolio/)
 
+
 # Critique by Design: Who Holds the World's GDP in 2026?
 
 ## The original visualization
@@ -114,7 +115,7 @@ I shared the wireframes with two people and asked them:
    - `Highlight`: colors the US and China differently from the rest
 5. Sorted the bars by IMF rank, added labels showing dollars and share, removed gridlines, and annotated the US–China share.
 
-### Key insight
+### Conclusion
 Global GDP is highly concentrated. The US (25.9%) and China (16.6%) together account for 42.5% of the total. The remaining 177 economies outside the top 15 add up to about the same as the US alone (25.0%).
 
 ## AI acknowledgements
