@@ -8,7 +8,7 @@
 
 ![Original ranked table of the 10 largest economies by GDP](images/gdp/original-table.png)
 
-*Original: a ranked table of countries by GDP (USD) with each country's share of the world total. Source: ([Statistics of the World](https://statisticsoftheworld.com/gdp-by-country)) from ([MakeoverMonday]([https://statisticsoftheworld.com/gdp-by-country](https://makeovermonday.vercel.app/dataset/global-gdp-ranks)) website. Data: IMF World Economic Outlook, nominal GDP in current US dollars ([imf.org/en/data](https://www.imf.org/en/data)).*
+*Original: a ranked table of countries by GDP (USD) with each country's share of the world total. Source: ([Statistics of the World](https://statisticsoftheworld.com/gdp-by-country)) from ([MakeoverMonday](https://makeovermonday.vercel.app/dataset/global-gdp-ranks)) website. Data: ([IMF World Economic Outlook](https://www.imf.org/en/data)), nominal GDP in current US dollars.*
 
 ### Why I chose it
 Ranked GDP tables are some of the most widely shared economic charts, and the IMF data behind this one is public, so I could recreate it exactly. The table looked clean and easy to read at first. When I opened the underlying dataset, though, I found that it left out a lot of context: the year, whether the figures are projections, and how concentrated world GDP really is. That made it a good candidate for a redesign.
