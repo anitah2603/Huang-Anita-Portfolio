@@ -125,9 +125,8 @@ All cleaned files are in this repository's [data folder](data/), along with a [d
 
 ## 5. Method and medium
 
-I will build the story in **Shorthand** as a scrolling story, with each of the seven sections as its own scene. The charts will be built in **Tableau Public** and embedded in Shorthand, so readers can hover for exact values, filter by group in Section 4, and use an earnings slider in Section 5.
+I will build the story in **Shorthand** as a scrolling story, with each of the seven sections as its own scene. The charts will be built in **Tableau Public** and embedded in Shorthand, so readers can hover for exact values, filter by group in Section 4, and use an earnings slider in Section 5. I plan to use a visual design in which gray represents context, blue represents the 2021 credit, and orange represents subsequent changes. Each chart will include a source line, and I will ensure the colors are legible to color-blind readers. The finished story will be linked from Part III of this portfolio.
 
-I plan to use a visual design in which gray represents context, blue represents the 2021 credit, and orange represents subsequent changes. Each chart will include a source line, and I will ensure the colors are legible to color-blind readers. The finished story will be linked from Part III of this portfolio.
 
 ## Sources
 
