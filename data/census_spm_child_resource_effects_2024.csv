@@ -1,0 +1,16 @@
+element,type,effect_on_child_spm_rate_pct_points,children_affected_thousands
+Refundable tax credits (EITC + refundable CTC),benefit,-5.08,-3704
+SNAP,benefit,-1.94,-1417
+Refundable Child Tax Credit,benefit,-2.01,-1464
+Social Security,benefit,-1.86,-1358
+School lunch,benefit,-0.91,-666
+Housing subsidies,benefit,-0.87,-634
+SSI,benefit,-0.46,-337
+WIC,benefit,-0.28,-207
+TANF/general assistance,benefit,-0.25,-181
+Unemployment insurance,benefit,-0.17,-124
+Energy assistance,benefit,-0.08,-57
+Medical expenses,expense,2.09,1524
+FICA (payroll taxes),expense,1.98,1448
+Work expenses,expense,1.79,1310
+Federal income tax,expense,0.3,222
