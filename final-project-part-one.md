@@ -10,17 +10,19 @@
 
 ## 1. Project summary
 
-In 2021, the share of American children living in poverty fell to 5.2%, the lowest rate on record under the Census Bureau's Supplemental Poverty Measure (SPM). A year later it was 12.4%. Roughly 5 million more children were in poverty. A major reason was the expiration of the expanded Child Tax Credit (CTC). In 2021 the credit was fully refundable: families with little or no income received the full amount. In 2022 it returned to a design that phases in with earnings, so children in the lowest-income families once again got a partial credit or none.
+In 2021, the percentage of American children living in poverty decreased to 5.2%, marking the lowest rate ever recorded by the Census Bureau's Supplemental Poverty Measure (SPM). However, a year later, that number had risen to 12.4%. Roughly 5 million more children were living in poverty. One major reason for this increase was the expiration of the expanded Child Tax Credit (CTC). In 2021, the credit was fully refundable, so families with little or no income received the full amount. However, in 2022, it reverted to its previous design, which phases in with earnings. Consequently, children in the lowest-income families once again received partial or no credit.
 
-My project uses that before-and-after moment to explore a broader idea: **targeted universalism**, which john a. powell and colleagues define as "setting universal goals pursued by targeted processes to achieve those goals." The universal goal here is simple: no child grows up in poverty. The data shows that reaching that goal depends on targeted design choices, such as whether a credit reaches families with the lowest incomes. Recent debates make this concrete. The 2025 law raised the maximum credit to $2,200, but about 17 million children get no increase because their families earn too little to qualify for the full amount.
+My project uses this before-and-after moment to explore a broader idea: targeted universalism, which John A. Powell and his colleagues define as "setting universal goals and achieving them through targeted processes." The universal goal here is simple: ensuring that no child grows up in poverty. Data shows that achieving this goal hinges on targeted design choices, such as ensuring the credit reaches families with the lowest incomes. Recent debates illustrate this point. The 2025 law increased the maximum credit to $2,200; however, approximately 17 million children received no increase because their families earned too little to qualify for the full amount.
 
-I want readers to come away understanding three things: the safety net already keeps millions of children out of poverty; the 2021 credit showed how much more is possible; and the specific design choice that decides which children are left out. I will present the evidence and the trade-offs that policymakers debate, such as cost and work incentives, rather than argue for one party's position.
+I want readers to understand three things. First, the safety net already keeps millions of children out of poverty. Second, the 2021 credit demonstrated how much more can be achieved. Third, specific design choices determine which children are excluded. Rather than arguing for one party's position, I will present the evidence and trade-offs that policymakers debate, such as cost and work incentives.
+
 
 ## 2. Project structure
 
 ### Audience
 
-My main audience is people who are not policy experts: students, voters, and parents who have heard of the Child Tax Credit but don't know how it works. A second audience is policy students, such as my classmates in public policy programs, who want a clear visual summary of the evidence.
+My main audience is non-policy experts, such as students, voters, and parents, who have heard of the Child Tax Credit but don't know how it works. A second audience is policy students, such as my classmates in public policy programs, who want a clear, visual summary of the evidence.
+
 
 ### User stories
 
@@ -96,11 +98,11 @@ The closing comparison uses CBPP's estimates for 2024: raising the maximum credi
 
 ## 4. The data
 
-My main dataset is the Excel appendix to the Center on Budget and Policy Priorities' (CBPP) 2024 report on poverty after pandemic relief expired. It uses the Supplemental Poverty Measure, which counts benefits and tax credits as income and subtracts taxes and necessary expenses. That makes it the right measure for this question; the official poverty measure ignores tax credits entirely. CBPP holds the poverty line constant after inflation, so rates can be compared from 1967 to 2022. The appendix also estimates how many children each program lifted above the poverty line in selected years, and breaks the results down by race, ethnicity, and family type.
+My main dataset is the Excel appendix of the 2024 Center on Budget and Policy Priorities (CBPP) report on poverty after pandemic relief expired. The report uses the Supplemental Poverty Measure, which counts benefits and tax credits as income and subtracts taxes and necessary expenses. This makes it the appropriate measure for addressing this issue because the official poverty measure disregards tax credits entirely. The CBPP holds the poverty line constant after inflation so that rates can be compared from 1967 to 2022. The appendix also estimates the number of children lifted above the poverty line by each program in selected years and breaks down the results by race, ethnicity, and family type.
 
-To extend the story to 2024, I use the Census Bureau's report *Poverty in the United States: 2024*. It provides the official SPM child poverty rates for 2021–2024 and the effect of each benefit on child poverty in 2024. For the policy sections, I use the Tax Policy Center for the 2021 credit's rules and CBPP's estimates of who is left out of the current credit and what different designs would do.
+To extend the analysis to 2024, I used the Census Bureau's report, *Poverty in the United States: 2024*. The report provides the official Supplemental Poverty Measure (SPM) child poverty rates for 2021–2024 and the effect of each benefit on child poverty in 2024. For the policy sections, I refer to the Tax Policy Center for information on the rules of the 2021 credit and to CBPP for estimates on who is excluded from the current credit and the impact of different designs.
 
-I wrote a Python script to clean the CBPP workbook into tidy CSV files that Tableau can read directly, with one row per year and group. When the Census changed its methods in 2017 and 2020, CBPP reported those years twice; my files keep the updated version and note the change. Because CBPP's series and the official Census series set the poverty line slightly differently (5.4% vs. 5.2% in 2021), every chart will label which source it uses.
+I wrote a Python script to clean the CBPP workbook and convert it into tidy CSV files that Tableau can read directly. There is one row per year and group. When the Census Bureau changed its methods in 2017 and 2020, the CBPP reported those years twice. My files keep the updated version and note the change. Since CBPP's series and the official Census series define the poverty line differently (5.4% vs. 5.2% in 2021), every chart labels the source used.
 
 ### Data files
 
@@ -125,7 +127,7 @@ All cleaned files are in this repository's [data folder](data/), along with a [d
 
 I will build the story in **Shorthand** as a scrolling story, with each of the seven sections as its own scene. The charts will be built in **Tableau Public** and embedded in Shorthand, so readers can hover for exact values, filter by group in Section 4, and use an earnings slider in Section 5.
 
-I will keep the visual design consistent with my sketches: gray for context, blue for the 2021 credit, and orange for the change after it expired. Every chart will include a source line, and I will check colors for color-blind readers. The finished story will be linked from Part III of this portfolio.
+I plan to use a visual design in which gray represents context, blue represents the 2021 credit, and orange represents subsequent changes. Each chart will include a source line, and I will ensure the colors are legible to color-blind readers. The finished story will be linked from Part III of this portfolio.
 
 ## Sources
 
