@@ -62,7 +62,10 @@ The interactive charts appear only on the published site, not in GitHub's file p
 
 This annotated line chart uses the Census Bureau's revised rates from 2019 to 2025. Readers see the pre-pandemic level, the record low in 2021, and how high poverty has stayed since.
 
-<iframe src="https://public.tableau.com/app/profile/anita.huang4128/viz/DataVisualizationProjectPartII-1/Chart1?:showVizHome=no&:embed=true" width="100%" height="700" frameborder="0"></iframe>
+<div>
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+  <tableau-viz src="https://public.tableau.com/views/ProjectII_17954870435220/Chart1" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
+</div>
 
 
 ### Section 2: What is the Child Tax Credit?
@@ -88,6 +91,7 @@ This annotated line chart uses the Census Bureau's revised rates from 2019 to 20
 This chart is new in Part II, added in response to feedback. It ranks the 2021 relief measures by how many children each kept out of poverty. The Child Tax Credit ranks first, and the chart shows that it worked alongside stimulus payments, SNAP, and other relief.
 
 <div>
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
   <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII/Chart3" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
@@ -106,6 +110,7 @@ This chart is new in Part II, added in response to feedback. It ranks the 2021 r
 This line chart is calculated from the 2021 and 2025 tax rules. Readers can switch family types with a dropdown, and a marker shows full-time minimum-wage earnings ($15,080).
 
 <div>
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
   <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII-5/Chart5" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
@@ -126,6 +131,7 @@ This line chart is calculated from the 2021 and 2025 tax rules. Readers can swit
 This chart is new in Part II. It compares one family, a single parent with two children working full time at the federal minimum wage, across the 2021 law, three bills, and current law. Hovering over a bar shows each proposal's status, earnings rule, and estimated effect on poverty.
 
 <div>
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
   <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII-7/Chart7" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
