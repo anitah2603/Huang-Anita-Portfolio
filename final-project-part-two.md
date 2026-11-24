@@ -62,9 +62,8 @@ The interactive charts appear only on the published site, not in GitHub's file p
 
 This annotated line chart uses the Census Bureau's revised rates from 2019 to 2025. Readers see the pre-pandemic level, the record low in 2021, and how high poverty has stayed since.
 
-<div>
-  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
-  <tableau-viz src="https://public.tableau.com/views/ProjectII_17954870435220/Chart1" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
+<div style="width:100%; max-width:1000px;">
+<iframe src="[https://public.tableau.com/views/GDPof192economiesin2026/Sheet1?:showVizHome=no&:embed=true](https://public.tableau.com/app/profile/anita.huang4128/viz/DataVisualizationProjectPartII-1/Chart1?publish=yes)" width="100%" height="700" frameborder="0"></iframe>
 </div>
 
 ### Section 2: What is the Child Tax Credit?
@@ -316,10 +315,13 @@ I used Claude (Anthropic) as an assistant in Part II. Its contributions:
 - Found research on the other 2021 relief measures, counterarguments, and congressional bills after the Part I feedback, and identified the Census Bureau's 2026 revisions to the poverty rates
 - Checked figures from my earlier group presentation against their original sources, and flagged one that didn't match
 - Drafted a Tableau build guide, the first version of the Shorthand section copy, the personas, and this research protocol
-- Made reference images of the target chart designs, which I used as guides only
-- Organized my interview notes into the findings section, corrected spelling in the quotes, and drafted the summary of patterns and the planned changes from my notes, which I reviewed and edited
 
-My own work: [describe what you did, for example: built every chart in Tableau, built and edited the Shorthand story, conducted all three interviews, wrote the findings, and decided on the changes for Part III].
+
+My own work: 
+- Built every chart in Tableau
+- Built and edited the Shorthand story
+- Conducted all three interviews
+- Wrote the findings, and decided on the changes for Part III
 
 ## Sources
 
