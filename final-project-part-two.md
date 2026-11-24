@@ -4,7 +4,7 @@
 
 ### How the design of the Child Tax Credit decides which children escape poverty
 
-**Draft Shorthand story:** [Who gets left out?(https://preview.shorthand.com/IjsW84WdzZ0GFsEp/responsive/desktop)]
+**Draft Shorthand story:** [Who gets left out?](https://preview.shorthand.com/IjsW84WdzZ0GFsEp/responsive/desktop)
 
 In Part I, I outlined a story about how the Child Tax Credit's design determines which children escape poverty, and sketched each section. In Part II, I revised the story based on feedback, turned the sketches into a draft Shorthand story, built the core charts in Tableau, and tested the draft with three people. This page documents that progress and the changes I plan for Part III.
 
