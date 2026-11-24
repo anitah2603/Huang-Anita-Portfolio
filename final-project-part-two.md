@@ -54,36 +54,76 @@ The story now has nine sections. The four core charts are built for this draft; 
 | 9 | Universal goal, targeted design | Reaching the children left out does more than raising the maximum | Two design changes compared | Part III |
 
 
+The interactive charts appear only on the published site, not in GitHub's file preview. Sections still in progress are marked **Planned for Part III**, with a short description of the planned chart and its data.
+
 ### Section 1: Hook
 
-The opening sketch became an annotated line chart. It now uses the Census Bureau's revised rates and runs from 2019 to 2025, so readers see the pre-pandemic level, the record low in 2021, and how high poverty has stayed since.
+**Message:** Child poverty more than doubled in one year.
 
-![Part I sketch for the hook](images/final-project/sketch-1-hook.png)
+This annotated line chart uses the Census Bureau's revised rates from 2019 to 2025. Readers see the pre-pandemic level, the record low in 2021, and how high poverty has stayed since.
 
 <div>
   <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
   <tableau-viz src="https://public.tableau.com/views/ProjectII_17954870435220/Chart1" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
+### Section 2: What is the Child Tax Credit?
+
+**Message:** A tax credit for parents, with a catch for the lowest earners.
+
+> **Planned for Part III.** This section is a short explainer: what the credit is, what "refundable" means, and why the credit was expanded in 2021. It also defines targeted, universal, and targeted universal policy. A timeline will mark the key changes to the credit, from its creation in 1997 through the 2021 expansion to the 2025 law.
+>
+> *Data:* `ctc_policy_timeline.csv` (Part I data)
+
+### Section 3: The safety net works
+
+**Message:** Government help already keeps millions of children out of poverty.
+
+> **Planned for Part III.** A line chart will compare the child poverty rate with and without government benefits and taxes, from 1967 to 2022. The widening gap between the two lines shows how much the safety net does.
+>
+> *Data:* `safety_net_1967_2022.csv` (CBPP, anchored SPM)
+
 ### Section 4: 2021, many measures, one big lever
 
-This chart is new in Part II, added in response to feedback. Its ranked bars show that the Child Tax Credit kept more children out of poverty in 2021 than any other measure, while making clear that it worked alongside stimulus payments, SNAP, and other relief.
+**Message:** The credit wasn't the only help in 2021, but it was the biggest for children.
+
+This chart is new in Part II, added in response to feedback. It ranks the 2021 relief measures by how many children each kept out of poverty. The Child Tax Credit ranks first, and the chart shows that it worked alongside stimulus payments, SNAP, and other relief.
 
 <div>
   <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII/Chart3" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
+### Section 5: Who fell back
+
+**Message:** When the credit expired, the poorest families fell furthest.
+
+> **Planned for Part III.** A dumbbell chart will compare child poverty in 2021 and 2022 by race, ethnicity, and family type. Children in single-parent, Black, and Latino families show the largest jumps.
+>
+> *Data:* `who_fell_back_2021_2022.csv` (CBPP) and `ctc_2021_effect_by_family.csv` (Census working paper, Burns & Fox 2022)
+
 ### Section 6: Why: the design
 
-The Part I sketch of the credit by earnings is now built from exact calculations. Readers can switch family types with a dropdown, and a marker shows full-time minimum-wage earnings.
+**Message:** Today's credit grows only as parents earn more.
 
-![Part I sketch for the credit design](images/final-project/sketch-4-credit-design.png)
+This line chart is calculated from the 2021 and 2025 tax rules. Readers can switch family types with a dropdown, and a marker shows full-time minimum-wage earnings ($15,080).
 
 <div>
   <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII-5/Chart5" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
+> **Planned for Part III.** A second chart will show the share of children who don't get the full credit under the 2025 law, by group. The share is highest for children with a single mother.
+>
+> *Data:* `left_behind_2025.csv` (Columbia Center on Poverty and Social Policy, Collyer et al. 2025)
+
+### Section 7: The debate
+
+**Message:** Why some lawmakers oppose a fully refundable credit.
+
+> **Written in the Shorthand draft; to be revised in Part III.** A table sets each argument against a fully refundable credit next to the evidence on it, including the concerns about work and cost. Based on the interviews, Part III will add evidence on the wider costs of child poverty, so the debate weighs the credit's price against those costs.
+
 ### Section 8: What Congress has proposed
+
+**Message:** Both parties have proposed bigger credits, with different rules for low earners.
 
 This chart is new in Part II. It compares one family, a single parent with two children working full time at the federal minimum wage, across the 2021 law, three bills, and current law. Hovering over a bar shows each proposal's status, earnings rule, and estimated effect on poverty.
 
@@ -91,11 +131,13 @@ This chart is new in Part II. It compares one family, a single parent with two c
   <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII-7/Chart7" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
-### Other sections
+### Section 9: Universal goal, targeted design
 
-Sections 2, 3, 5, 7, and 9 are written in the Shorthand draft. Sections 3, 5, and 9 use the Part I sketches as placeholders until their charts are built in Part III. Section 7 presents the arguments as a table, so it needs no chart.
+**Message:** Reaching the children left out does more than raising the maximum.
 
-![Part I storyboard](images/final-project/sketch-0-storyboard.png)
+> **Planned for Part III.** A two-bar comparison will show how many more children each design change would lift out of poverty. Raising the maximum credit to $2,200 lifts about 66,000. Letting low-income families get the full credit lifts about 1.4 million. The story closes on this targeted universal approach: a credit meant for every child, designed to reach the children left out.
+>
+> *Data:* `design_whatif_2024.csv` (CBPP, Sept. 2025)
 
 ## 4. Audience and personas
 
@@ -206,7 +248,7 @@ Quotes are lightly edited for spelling. Participants who said "CDC" meant the Ch
 - P3: "Policy makers."
 
 **Q9. What would you change?**
-- P1: "I would recommend pointing out that it was due to the CTC expansion that caused the record-low child poverty in 2021 in your first chart. The last chart looks a little confusing, but the topic is good."
+- P1: "The last chart looks a little confusing, but the topic is good."
 - P2: "The color choice and annotations could be altered to convey a clearer message."
 - P3: "I will look at the original data and redesign the last ('Today's credit grows only as parents earn more') chart."
 
