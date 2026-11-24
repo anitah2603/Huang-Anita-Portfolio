@@ -231,7 +231,7 @@ Quotes are lightly edited for spelling. Participants who said "CDC" meant the Ch
 
 **Q7. Where did you get stuck?**
 - P1: "Looks fine to me. But it may need more background information explanation to an audience with less policy-study backgrounds."
-- P2: "[quote]"
+- P2: "It takes me some time to connect the visualizations to its policy background."
 - P3: "I find it a little bit difficult navigating your 'Today's credit grows only as parents earn more' chart. It would be great if the grey cutoff line could be depicted in a more revealing way."
 
 **Q8. Who is this for?**
