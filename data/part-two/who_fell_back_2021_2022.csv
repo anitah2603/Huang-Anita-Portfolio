@@ -1,0 +1,15 @@
+group,group_type,sort_order,year,child_poverty_rate_pct
+Children in single-parent families,Family type,1,2021,10.63
+Children in single-parent families,Family type,1,2022,25.36
+Latino children,Race/ethnicity,2,2021,8.6
+Latino children,Race/ethnicity,2,2022,19.57
+Black children,Race/ethnicity,3,2021,8.58
+Black children,Race/ethnicity,3,2022,18.4
+All children,All,4,2021,5.38
+All children,All,4,2022,12.4
+Asian children,Race/ethnicity,5,2021,4.69
+Asian children,Race/ethnicity,5,2022,9.62
+White children,Race/ethnicity,6,2021,2.84
+White children,Race/ethnicity,6,2022,7.15
+Children in married-couple families,Family type,7,2021,3.01
+Children in married-couple families,Family type,7,2022,6.94

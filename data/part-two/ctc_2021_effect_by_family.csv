@@ -1,0 +1,13 @@
+family_type,scenario,child_spm_poverty_rate_2021_pct
+Married-couple families,No Child Tax Credit,5.0
+Married-couple families,Pre-2021 credit rules,4.1
+Married-couple families,2021 expanded credit,2.8
+"Mother, no spouse or partner",No Child Tax Credit,19.9
+"Mother, no spouse or partner",Pre-2021 credit rules,18.3
+"Mother, no spouse or partner",2021 expanded credit,11.1
+"Father, no spouse or partner",No Child Tax Credit,14.0
+"Father, no spouse or partner",Pre-2021 credit rules,12.5
+"Father, no spouse or partner",2021 expanded credit,8.9
+Cohabiting-partner families,No Child Tax Credit,13.4
+Cohabiting-partner families,Pre-2021 credit rules,12.9
+Cohabiting-partner families,2021 expanded credit,7.5
