@@ -62,10 +62,7 @@ The interactive charts appear only on the published site, not in GitHub's file p
 
 This annotated line chart uses the Census Bureau's revised rates from 2019 to 2025. Readers see the pre-pandemic level, the record low in 2021, and how high poverty has stayed since.
 
-<div>
-  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
-  <tableau-viz src="https://public.tableau.com/views/ProjectII_17954870435220/Chart1" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
-</div>
+<iframe src="https://public.tableau.com/views/ProjectII_17954870435220/Chart1?:showVizHome=no&:embed=true&:toolbar=no" width="100%" height="600" style="border:0"></iframe>
 
 
 ### Section 2: What is the Child Tax Credit?
