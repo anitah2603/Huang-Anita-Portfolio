@@ -53,7 +53,6 @@ The story now has nine sections. The four core charts are built for this draft; 
 | 8 | What Congress has proposed | Both parties have proposed bigger credits, with different rules for low earners | Credit for a minimum-wage parent under each plan | Part II (core) |
 | 9 | Universal goal, targeted design | Reaching the children left out does more than raising the maximum | Two design changes compared | Part III |
 
-<!-- After building each chart, replace [YourWorkbook]/[ChartNDashboard] with your Tableau Public /views/ link. -->
 
 ### Section 1: Hook
 
@@ -63,7 +62,7 @@ The opening sketch became an annotated line chart. It now uses the Census Bureau
 
 <div>
   <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
-  <tableau-viz src="https://public.tableau.com/views/[YourWorkbook]/[Chart1Dashboard]" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
+  <tableau-viz src="https://public.tableau.com/views/ProjectII_17954870435220/Chart1" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
 ### Section 4: 2021, many measures, one big lever
@@ -71,7 +70,7 @@ The opening sketch became an annotated line chart. It now uses the Census Bureau
 This chart is new in Part II, added in response to feedback. Its ranked bars show that the Child Tax Credit kept more children out of poverty in 2021 than any other measure, while making clear that it worked alongside stimulus payments, SNAP, and other relief.
 
 <div>
-  <tableau-viz src="https://public.tableau.com/views/[YourWorkbook]/[Chart3Dashboard]" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
+  <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII/Chart3" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
 ### Section 6: Why: the design
@@ -81,7 +80,7 @@ The Part I sketch of the credit by earnings is now built from exact calculations
 ![Part I sketch for the credit design](images/final-project/sketch-4-credit-design.png)
 
 <div>
-  <tableau-viz src="https://public.tableau.com/views/[YourWorkbook]/[Chart5Dashboard]" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
+  <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII-5/Chart5" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
 ### Section 8: What Congress has proposed
@@ -89,7 +88,7 @@ The Part I sketch of the credit by earnings is now built from exact calculations
 This chart is new in Part II. It compares one family, a single parent with two children working full time at the federal minimum wage, across the 2021 law, three bills, and current law. Hovering over a bar shows each proposal's status, earnings rule, and estimated effect on poverty.
 
 <div>
-  <tableau-viz src="https://public.tableau.com/views/[YourWorkbook]/[Chart7Dashboard]" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
+  <tableau-viz src="https://public.tableau.com/views/DataVisualizationProjectPartII-7/Chart7" width="100%" height="560" toolbar="hidden" hide-tabs></tableau-viz>
 </div>
 
 ### Other sections
@@ -152,84 +151,98 @@ Each interview took about 15 minutes, in person or by video, using the Shorthand
 
 ## 6. Findings
 
-<!-- Fill this in from your interview notes. Use direct quotes. Do not include names or identifying details. -->
-
 ### Participants
 
 | Participant | Program and background | Familiarity with the CTC | Clarity rating (1–5) |
 | --- | --- | --- | --- |
-| P1 | [e.g., MSPPM student] | [ ] | [ ] |
-| P2 | [e.g., MISM student] | [ ] | [ ] |
-| P3 | [e.g., student in another program, no tax policy background] | [ ] | [ ] |
+| P1 | MSPPM student | Nearly expert | 5 |
+| P2 | MSPPM student | Familiar | 4 |
+| P3 | MISM student | Basic | 3 |
+
+The average clarity rating was 4.0. I had planned to interview one public policy student, one information systems student, and one student with no tax policy background. In practice I interviewed two public policy (MSPPM) students and one information systems (MISM) student. P3, who had only basic familiarity with the credit, also served as the reader without a policy background.
+
+Quotes are lightly edited for spelling. Participants who said "CDC" meant the Child Tax Credit, so it appears here as CTC.
 
 ### Responses by question
 
 **Q1. What is this story about?**
-- P1: "[quote]"
-- P2: "[quote]"
-- P3: "[quote]"
+- P1: "Since children are independent of their parents, the socioeconomic status and financial discrimination their parents experience greatly affects their living standards."
+- P2: "In order to close the child poverty gap, we need to shift from providing temporary, targeted relief to investing in a permanent, universal model."
+- P3: "To help reduce child poverty, we need more policies that help low-income parents who are raising young children."
 
 **Q2. What is the Child Tax Credit?**
-- P1: "[quote]"
-- P2: "[quote]"
-- P3: "[quote]"
+- P1: "Credit that lowers federal income tax owed per child."
+- P2: "Targeted tax relief that reduces your federal income tax liability."
+- P3: "A tax credit that benefits children I guess?"
 
 **Q3. The credit's role in 2021**
-- P1: "[quote]"
-- P2: "[quote]"
-- P3: "[quote]"
+- P1: "The 2021 CTC relief greatly reduced the burden on parents raising children, thereby reducing the child poverty rate in the United States."
+- P2: "Child poverty decreased by nearly half to a record low of 5.1%."
+- P3: "It helps dropping child poverty rate to a low point."
 
-**Q4. Chart task: credit at $20,000**
-- P1: [answer given; correct or not]
-- P2: [answer given; correct or not]
-- P3: [answer given; correct or not]
+**Q4. Chart task: credit at $20,000** (correct answer: about $2,600)
+- P1: $2,550 (correct)
+- P2: $15,000 (incorrect)
+- P3: $2,625 (correct)
 
 **Q5. Are the counterarguments fair?**
-- P1: "[quote]"
-- P2: "[quote]"
-- P3: "[quote]"
+- P1: "I get your point, but lower federal expenses on child welfare does not mean a reduction in total federal expense."
+- P2: "I would suggest to be cautious about direct money value comparison like this."
+- P3: "I think it looks fair."
 
 **Q6. Comparing proposals**
-- P1: "[quote]"
-- P2: "[quote]"
-- P3: "[quote]"
+- P1: "CTC expansion in 2021, for its fair time length."
+- P2: "Definitely not the 2025 current one."
+- P3: "Maybe the One Family Act [the American Family Act]? It looks like the most generous one."
 
 **Q7. Where did you get stuck?**
-- P1: "[quote]"
+- P1: "Looks fine to me. But it may need more background information explanation to an audience with less policy-study backgrounds."
 - P2: "[quote]"
-- P3: "[quote]"
+- P3: "I find it a little bit difficult navigating your 'Today's credit grows only as parents earn more' chart. It would be great if the grey cutoff line could be depicted in a more revealing way."
 
 **Q8. Who is this for?**
-- P1: "[quote]"
-- P2: "[quote]"
-- P3: "[quote]"
+- P1: "People who truly care about public welfare with policy backgrounds."
+- P2: "It could be used in policy analysis if more background information and analysis are provided."
+- P3: "Policy makers."
 
 **Q9. What would you change?**
-- P1: "[quote]"
-- P2: "[quote]"
-- P3: "[quote]"
+- P1: "I would recommend pointing out that it was due to the CTC expansion that caused the record-low child poverty in 2021 in your first chart. The last chart looks a little confusing, but the topic is good."
+- P2: "The color choice and annotations could be altered to convey a clearer message."
+- P3: "I will look at the original data and redesign the last ('Today's credit grows only as parents earn more') chart."
 
 ### What I had to explain
 
-[List each thing you had to explain out loud, and which participant needed it.]
+After the interviews, I had to explain four things out loud:
+
+- What targeted, universal, and targeted universal policies are
+- Background on the Child Tax Credit
+- Why the credit was expanded in 2021
+- How yearly earnings relate to the credit a family receives
+
+These line up with gaps in the draft. The story uses "targeted universalism" without defining it, the explainer section is too thin, and the credit-by-earnings chart does not make the relationship obvious on its own.
 
 ### Where interviewees agreed
 
-- [Pattern seen in two or three interviews, with the supporting quotes]
+- **The 2021 expansion clearly reduced child poverty.** All three said so in Q3. None of them mentioned the other 2021 relief measures, even after seeing the chart that ranks them. P2 answered with the overall drop in child poverty (to 5.1%), not the credit's share of it. This is the overstatement the Part I feedback warned about. Readers still take away "the credit did it," so Section 4 has to make the point more directly.
+- **The credit-by-earnings chart (Chart 5) needs a redesign.** It is the chart people struggled with most. P2 answered the chart task with $15,000, which is the earnings value at the gray minimum-wage line, not a credit amount. P3 asked for the "grey cutoff line" to be "depicted in a more revealing way." P2 suggested changing the colors and annotations, and P3 wanted to redesign the chart. The main point, that low-income families get less, is not getting through.
+- **The story reads as written for policy readers.** All three described the audience as policy people (Q8). P1 and P2 both said it needs more background for readers outside policy.
 
 ### Where interviewees differed
 
-- [Point where participants disagreed, and why that might be, for example their program]
+- **Background changed how fast people understood the story.** Familiarity with the credit tracked the clarity ratings: the nearly expert P1 rated it 5, and the basic-familiarity P3 rated it 3. P1 and P2 defined the credit precisely. P3 was unsure ("I guess?") and needed more explanation. Readers with policy training recognized the patterns and background quickly. Readers without it need the explainer to do more work.
+- **Policy readers pushed back on the cost framing; P3 did not.** P1 argued that lower spending on child welfare does not lower total federal spending. P2 warned against comparing dollar values directly. P3 found the arguments fair. The policy students want the counterarguments to weigh wider costs, not just the price of the credit.
+- **No one named a trade-off between proposals.** Each participant picked a favorite for a different reason: P1 for how long it lasted, P2 by ruling out current law, and P3 for being the most generous. None described a trade-off, so Chart 7 does not yet show what each plan gives up.
 
 ## 7. Changes planned for Part III
 
-<!-- Each change should trace back to a finding above. -->
-
 | What I observed | Evidence | Change for Part III |
 | --- | --- | --- |
-| [ ] | [participant and quote] | [ ] |
-| [ ] | [participant and quote] | [ ] |
-| [ ] | [participant and quote] | [ ] |
+| Readers could not read the credit-by-earnings chart, and the gray line was mistaken for the answer | P2 answered $15,000; P3: "a little bit difficult navigating"; P1 and P3 called the chart confusing in Q9 | Redesign Chart 5. Label the minimum-wage line directly with both credit values. Shade the gap between the 2021 and 2025 lines as "credit lost." Add a plain-language subtitle: "A parent must earn about $33,700 to get the full credit today." Use clearer colors and fewer annotations. |
+| Readers credited the 2021 drop to the CTC alone | Q3: all three described the drop as the credit's effect; none mentioned other relief | Revise Section 4's headline and annotation to say the credit was the largest of several measures. Tie Chart 1's 2021 low point to all relief, not the credit alone. |
+| Readers without policy training needed more background | P1: "may need more background information"; P2: needs "more background information"; P3: "I guess?"; four topics explained out loud | Expand Section 2 into a short explainer: what the credit is, what "refundable" means, and why it was expanded in 2021. Add a short definition of targeted, universal, and targeted universal policy early in the story. |
+| The cost argument looked one-sided to policy readers | P1: lower spending on child welfare "does not mean a reduction in total federal expense" | Add evidence on the wider costs of child poverty to Section 7, so the debate weighs the credit's price against those costs. |
+| Raw dollar amounts were hard to compare fairly | P2: "be cautious about direct money value comparison" | In Chart 7, show each credit as a share of the family's earnings as well as in dollars (for example, $1,887 is 12.5% of $15,080, while $6,000 is about 40%). Show each plan's estimated effect on poverty next to the bar instead of only in the tooltip. |
+| No one could name a trade-off between proposals | Q6: each participant chose a favorite but none named a trade-off | Add each proposal's earnings rule and status to Chart 7 as visible labels, and add a sentence on what each plan gives up (cost, work requirement, or reach). |
 
 I will also build the remaining charts (Sections 2, 3, 5, and 9, plus the left-out chart in Section 6) and replace their placeholders in Shorthand.
 
@@ -262,6 +275,7 @@ I used Claude (Anthropic) as an assistant in Part II. Its contributions:
 - Checked figures from my earlier group presentation against their original sources, and flagged one that didn't match
 - Drafted a Tableau build guide, the first version of the Shorthand section copy, the personas, and this research protocol
 - Made reference images of the target chart designs, which I used as guides only
+- Organized my interview notes into the findings section, corrected spelling in the quotes, and drafted the summary of patterns and the planned changes from my notes, which I reviewed and edited
 
 My own work: [describe what you did, for example: built every chart in Tableau, built and edited the Shorthand story, conducted all three interviews, wrote the findings, and decided on the changes for Part III].
 
