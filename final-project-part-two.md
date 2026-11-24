@@ -63,7 +63,7 @@ The interactive charts appear only on the published site, not in GitHub's file p
 This annotated line chart uses the Census Bureau's revised rates from 2019 to 2025. Readers see the pre-pandemic level, the record low in 2021, and how high poverty has stayed since.
 
 <div style="width:100%; max-width:1000px;">
-<iframe src="[https://public.tableau.com/views/GDPof192economiesin2026/Sheet1?:showVizHome=no&:embed=true](https://public.tableau.com/app/profile/anita.huang4128/viz/DataVisualizationProjectPartII-1/Chart1?publish=yes)" width="100%" height="700" frameborder="0"></iframe>
+<iframe src="https://public.tableau.com/app/profile/anita.huang4128/viz/DataVisualizationProjectPartII-1/Chart1" width="100%" height="700" frameborder="0"></iframe>
 </div>
 
 ### Section 2: What is the Child Tax Credit?
